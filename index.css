@@ -6,7 +6,7 @@
 
 body {
   min-width: 375px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   margin: 0;
   background-color: #e5e5e5;
 }
@@ -74,7 +74,7 @@ body {
 }
 
 #main {
-  background-image: url("../images/header\ shapes.png");
+  background-image: url('../images/header\ shapes.png');
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-size: 100%;
@@ -183,7 +183,7 @@ body {
 }
 
 .works-heading {
-  font-style: 'Poppins'sans-serif;
+  font-style: 'Poppins' sans-serif;
   margin-top: 4%;
   margin-bottom: 2%;
   font-weight: 700px;
@@ -313,10 +313,11 @@ body {
   text-decoration: underline;
   background-color: #ebebff;
 }
+
 .facebook-button:hover {
-    text-decoration: underline;
-    background-color: #2c177d;
-  }
+  text-decoration: underline;
+  background-color: #2c177d;
+}
 
 #about-myself {
   background-color: white;
@@ -450,7 +451,7 @@ body {
 }
 
 .footer-container {
-  background: url("../images/footer\ shapes.png");
+  background: url('../images/footer\ shapes.png');
   background-repeat: no-repeat;
   background-position-x: right;
   width: 100%;
@@ -685,7 +686,7 @@ body {
   }
 
   .footer-container {
-    background: url("../images/footer-background-desktop.png");
+    background: url('../images/footer-background-desktop.png');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0% 50%;
