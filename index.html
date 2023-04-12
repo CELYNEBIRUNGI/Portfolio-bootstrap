@@ -1,22 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
+    <title> Portfolio Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
-  <body>
-    <div class="container"></div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
+ <body>
+    <div id="home-page"> 
+      <header class="header">
+        <!--  -->
+        <nav class="navbar ">
+          <div class="container-fluid">
+            <a class=" logo"  href="#">
+              
+              My Logo
+            </a>
+          </div>
+        </nav>
+         <!-- -->
+          <!-- <a href="#" class="logo">My Logo</a> 
+          <nav id="nav-hamburger">
+          <img src="images/nav.png">        
+          </nav> -->
+      </header>
+      <section id="main">
+        <div>
+          <h2><span class="main-heading">I'm Celyne.<br>Glad to See you!</span></h2>
+          <p class="main-paragraph">I'm a software developer! I can help you build a product, feature or website Look through
+               some of my work and experience! If you like what you see and have 
+               a project you need coded, don't hesitate to contact me.</p>
+               <label class="connect">LET'S CONNECT</label>
+              </div>
+       <div id="socials">
+          <ul class="social-media-list">
+            <li><a href="#" class="icons"><img src="images/twitter.png"></a></li>
+            <li><a href="#" class="icons"><img src="images/Linkedin.png"></a></li>
+            <li><a href="#" class="icons"><img src="images/M.png"></a></li>
+            <li><a href="#" class="icons"><img src="images/github.png"></a></li>
+            <li><a href="#" class="icons"><img src="images/hi 5.png"></a></li>
+          </ul><br>
+          </div>
+        </section>
+    </div>
+    <div id="works-grid">
+     <div id="works-1">
+        <div class="img-container"><img src="images/Snapshoot.png"></div>
+        <div class="img-container-desktop"><img class="desktop-image" src="images/Snapshoot-Desktop1.png" alt=""></div>
+        <div class="works-contents">
+          <h2 class="works-heading">Tonic</h2>
+          <div class="works-frame">
+            <label class="frame-text1">CANOPY</label>
+            <div class="frame-counter"><img src="images/Counter.png"></div>
+            <label class="frame-text2">Back End Dev</label>
+            <div class="frame-counter"><img src="images/Counter.png"></div>
+            <label class="frame-text2">2015</label>
+          </div>
+          <p class="works-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <ul class="works-list">
+            <li><label class="list-buttons">HTML</label></li>
+            <li><label class="list-buttons">ruby on rails</label></li>
+            <li><label class="list-buttons">CSS</label></li>
+            <li><label class="list-buttons">JAVASCRIPT</label></li>
+          </ul>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="works-button" type="button">See Project</button>
+          </div>
+        </div>
+      </div>
+      <div id="works-1">
+        <div class="img-container"><img src="images/Snapshoot2.png"></div>
+        <div class="img-container-dp"><img class="desktop-image" src="images/muilti.png"></div>
+        <div class="works-contents">
+          <h2 class="works-heading">Multi-Post Stories</h2>
+          <div class="works-frame">
+            <label class="frame-text1">FACEBOOK</label>
+            <div class="frame-counter"><img src="images/Counter.png"></div>
+            <label class="frame-text2">full stack dev</label>
+            <div class="frame-counter"><img src="images/Counter.png"></div>
+            <label class="frame-text2">2015</label>
+          </div>
+          <p class="works-paragraph">Experimental content creation feature that allows users to 
+            add to an existing story over the
+             course of a day without spamming their friends.</p>
+          <ul class="works-list">
+            <li><label class="list-buttons">html</label></li>
+            <li><label class="list-buttons">ruby on rails</label></li>
+            <li><label class="list-buttons">css</label></li>
+            <li><label class="list-buttons">Javascript</label></li>
+          </ul>
+          
+            <div class="d-grid gap-2 d-md-block">
+            <button class="works-button" type="button">See Project</button>
+        </div>
+      </div>
+      <div id="works-1">
+        <div class="img-container"><img src="images/Snapshoot3.png"></div>
+        <div class="img-container-desktop"><img class="desktop-image" src="images/Snapshoot.png"></div>
+        < class="works-contents">
+          <h2 class="works-heading">FACEBOOK360</h2>
+          <div class="works-frame">
+            <label class="frame-text1">FACEBOOK</label>
+            <div class="frame-counter"><img src="images/Counter.png"></div>
+            <label class="frame-text2">Full stack dev</label>
+            <div class="frame-counter"><img src="images/Counter.png"></div>
+            <label class="frame-text2">2015</label>
+          </div>
+          <p class="works-paragraph">Exploring the future of media in Facebook's first Virtual Reality app; a 
+            place to discover and enjoy 360 photos and videos on Gear VR.</p>
+          <ul class="works-list">
+            <li><label class="list-buttons">html</label></li>
+            <li><label class="list-buttons">ruby on rails</label></li>
+            <li><label class="list-buttons">css</label></li>
+            <li><label class="list-buttons">Javascript</label></li>
+          </ul>
+          
+            <div class="d-grid gap-2 d-md-block">
+              <button class="works-button" type="button">See Project</button>
+          </div>
+      
+      </div>
+      <div id="works-1">
+        <div class="img-container"><img src="images/Snapshoot4.png"></div>
+        <div class="img-container-dp"><img class="desktop-image" src="images/Snapshoot2.png"></div>
+        <div class="works-contents">
+          <h2 class="works-heading">Uber  Navigation</h2>
+          <div class="works-frame">
+            <label class="frame-text1">Uber</label>
+            <div class="frame-counter"><img src="images/Counter.png"></div>
+            <label class="frame-text2">Lead Developer</label>
+            <div class="frame-counter"><img src="images/Counter.png"></div>
+            <label class="frame-text2">2018</label>
+          </div>
+          <p class="works-paragraph">A smart assistant to make driving more safe, efficient, and fun by unlocking
+             your most expensive computer: your car.</p>
+          <ul class="works-list">
+            <li><label class="list-buttons">html</label></li>
+            <li><label class="list-buttons">ruby on rails</label></li>
+            <li><label class="list-buttons">css</label></li>
+            <li><label class="list-buttons">Javascript</label></li>
+          </ul>
+          
+            <div class="d-grid gap-2 d-md-block">
+              <button class="works-button" type="button">See Project</button>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+    <section id="about-myself">
+      <div class="inner-container">
+        <h2 class="heading-about">About Myself</h2>
+        <p class="paragraph-about">Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+        <label class="connect">LET'S CONNECT</label>
+        <div id="socials">
+          <ul class="social-media-list">
+            <li><a href="#" class="icons"><img src="images/github.png"></a></li>
+            <li><a href="#" class="icons"><img src="images/Linkedin.png"></a></li>
+            <li><a href="#" class="icons"><img src="images/hi 5.png"></a></li>
+            <li><a href="#" class="icons"><img src="images/twitter.png"></a></li>            
+            <li><a href="#" class="icons"><img src="images/M.png"></a></li>
+          </ul><br>
+        </div>
+        <div class="d-grid gap-2 d-md-block">
+          <button class="works-button" type="button">See Project</button>
+      </div>
+      </div>
+      <div class="about-languages">
+        <ul id="language-list">
+          <li>
+            <label class="about-languages-heading">Languages</label>
+            <img class="arrow" src="images/arrow.png">
+            <div class="languages-container">
+              <div class="languages-container-inner">
+                <img class="language-image" src="images/Ellipse 1.png">
+                <div class="language-text">Javascript</div>
+              </div>
+              <div class="languages-container-inner">
+                <img class="language-image" src="images/HTML.png">
+                <div class="language-text">HTML</div>
+              </div>
+              <div class="languages-container-inner">
+                <img class="language-image" src="images/CSS.png">
+                <div class="language-text">CSS</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <label class="about-languages-heading">Frameworks</label>
+            <img class="arrow" src="images/DisabledArrow.png">
+            <div class="divider"></div>
+          </li>
+          
+          <li>
+            <label class="about-languages-heading">Skills</label>
+            <img class="arrow" src="images/DisabledArrow.png">
+            <div class="divider"></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+
+    <footer class="footer">
+      <section class="footer-container">
+        <h2 class="footer-heading">Contact me</h2>
+        <p class="footer-paragraph">If you have an application you <br>are interested in developing, a<br> feature that you need built or a<br> project that needs coding.<br> I'd love to help with it!</p>
+
+        <form id="form" action="https://formspree.io/f/moqzkvvq" method="POST">
+          <input class="fields1" type="text" name="full_name" minlength="4" maxlength="30" placeholder="Name " required/>
+          <input class="fields1" type="email" name="user_email" placeholder="Email Address" required/>
+          <textarea class="fields2" maxlength="500" rows="6" cols="40" name="message" form="form" placeholder ="Write your message here..." required></textarea>
+          <button class="form-button" type="submit">Get in touch</button>
+        </form>
+
+      
+      </section>
+    </footer>    
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
